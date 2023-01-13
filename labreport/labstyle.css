@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+    
+}
+body{
+    background-color: #dfdfb4;
+}
+/* NAV BAR */
+nav {
+width: 100%;
+padding: 40px;
+margin: 0;
+display: flex;
+justify-content: center; 
+align-items: center;
+background-color: #277076;
+color:#dfe2e1;
+font-size: 30px;
+}
+
+/* ARTICLE */
+article {
+width: 90%;
+margin: 0 auto;
+padding: 20px;
+}
+
+ h2 {
+font-family: "Arial";
+font-size: 25px;
+color: #333333;
+font-weight: bold;
+text-decoration: none;
+
+}
+
+ p {
+font-family: "Arial";
+font-size: 16px;
+color: #333333;
+line-height: 1.5;
+}
+ #fig1{
+    font-size: 14px;
+    font-weight: bold;
+}

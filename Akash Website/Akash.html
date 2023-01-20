@@ -1,0 +1,193 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta charset="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="Akash Selvam" />
+    <title>Akash's Personal Website</title>
+    <!-- <link rel="stylesheet" href="akstyle.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins"
+    />
+    <script
+      src="https://kit.fontawesome.com/b9bb0d4b29.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #eeeeee;
+      margin: 0;
+      padding: 0;
+    }
+
+    .main-navbar {
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      align-items: center;
+      color: #dfe2e1;
+      justify-content: space-between;
+      background-color: #102027;
+    }
+
+    .title-name {
+      font-size: 2rem;
+      margin: 10px;
+      font-family: "Sofia", sans-serif;
+    }
+
+    .main-navbar ul {
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
+
+    .main-navbar li {
+      padding: 0px 15px;
+    }
+
+    .main-navbar a {
+      font-family: "Arial";
+      font-size: 1.1rem;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .bio-container {
+      display: flex;
+      min-height: 550px;
+      margin: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #greeting-title {
+      font-size: 2.4rem;
+      font-family: "Sofia", sans-serif;
+      color: black;
+    }
+
+    #greeting-paragraph {
+      font-size: 1.2rem;
+      color: black;
+      width: 400px;
+    }
+
+    .img {
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      width: min(70%, 450px);
+      height: auto;
+      border-radius: 15%;
+      opacity: 0.8;
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      color: black;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      background-color: #102027;
+    }
+
+    .icongroup a {
+      margin: 6px;
+      color: white;
+    }
+
+    .icongroup a:hover {
+      color: grey;
+    }
+
+    #footer-name {
+      margin: 5px;
+      color: white;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .bio-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .main-navbar ul {
+        display: none;
+      }
+      .main-navbar {
+        justify-content: center;
+      }
+      #greeting-title {
+        font-size: 2rem;
+      }
+    }
+  </style>
+
+  <body>
+    <nav class="main-navbar">
+      <div>
+        <p class="title-name">Akash S.</p>
+      </div>
+      <ul>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-page">
+      <div class="bio-container">
+        <div class="bio">
+          <h1 id="greeting-title">Hello, I'm Akash Selvam.</h1>
+          <p id="greeting-paragraph">
+            Recent graduate from University of California Merced with a Bachelor
+            of Science in cognitive science. Currently looking to get into user
+            experience research.
+          </p>
+        </div>
+
+        <div class="img">
+          <img src="buisness-outside.jpeg" />
+        </div>
+      </div>
+
+      <div class="" id="projects">
+        <div>
+          <h2>Lab Report</h2>
+          <p>
+            In this project I conducted a mock study in which I built 4 color
+            variants of a web page for a ficticious company I made up for this
+            study.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p id="footer-name">Akash Selvam - 2023</p>
+      <p></p>
+      <div class="icongroup">
+        <a class="fa-brands fa-github fa-xl" href="#"></a>
+        <a class="fa-brands fa-linkedin fa-xl" href="#"></a>
+      </div>
+    </footer>
+  </body>
+</html>

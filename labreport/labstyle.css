@@ -34,15 +34,18 @@ color: #333333;
 font-weight: bold;
 text-decoration: none;
 
+
 }
 
  p {
-font-family: "Arial";
+/*font-family: "Arial";*/
+font-family: "Times New Roman", Times, serif;
 font-size: 16px;
 color: #333333;
 line-height: 1.5;
+
 }
  #fig1{
     font-size: 14px;
-    font-weight: bold;
+    
 }

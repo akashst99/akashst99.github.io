@@ -26,11 +26,12 @@
     }
 
     body {
-      background-color: #eeeeee;
-      margin: 0;
-      padding: 0;
+      background-color: #f1f9ff;
+      margin: 0px;
+      padding: 0px;
+      
     }
-
+/*Navigation*/
     .main-navbar {
       padding: 0px;
       margin: 0px;
@@ -49,12 +50,14 @@
 
     .main-navbar ul {
       padding: 0;
+      margin: 0;
       list-style: none;
       display: flex;
+      height: auto;
     }
 
     .main-navbar li {
-      padding: 0px 15px;
+      padding: 25px;
     }
 
     .main-navbar a {
@@ -64,7 +67,10 @@
       font-weight: bold;
       text-decoration: none;
     }
-
+    .main-navbar li:hover{
+      background-color: #b71c1c;
+    }
+/*First Page Content*/
     .bio-container {
       display: flex;
       min-height: 550px;
@@ -72,7 +78,6 @@
       align-items: center;
       justify-content: center;
     }
-
     #greeting-title {
       font-size: 2.4rem;
       font-family: "Sofia", sans-serif;
@@ -96,7 +101,7 @@
       border-radius: 15%;
       opacity: 0.8;
     }
-
+/*footer*/
     footer {
       display: flex;
       align-items: center;
@@ -108,6 +113,7 @@
       width: 100%;
       text-align: center;
       background-color: #102027;
+      
     }
 
     .icongroup a {
@@ -116,7 +122,7 @@
     }
 
     .icongroup a:hover {
-      color: grey;
+      color:#b71c1c;
     }
 
     #footer-name {
@@ -124,6 +130,25 @@
       color: white;
     }
 
+    .section-title{
+      font-size: 2.6rem;
+      text-align: center; 
+
+    }
+    /*Project*/
+    #projects{
+      margin:75px;
+      font-size: 1.2rem;
+    }
+    
+    #projects a{
+      text-decoration: none;
+      color: #1e88e5;
+      font-size: 1.3rem;
+    }
+    #projects h2{
+font-size: 1.6rem;
+    }
     @media only screen and (max-width: 700px) {
       .bio-container {
         flex-direction: column;
@@ -139,6 +164,7 @@
         font-size: 2rem;
       }
     }
+    
   </style>
 
   <body>
@@ -149,7 +175,7 @@
       <ul>
         <li><a href="#">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="https://drive.google.com/file/d/1kXMdaGSxJZQJ5ScNN4XYF9a0M2k8_3M3/view?usp=sharing" target="_blank">Resume</a></li>
       </ul>
     </nav>
 
@@ -159,7 +185,7 @@
           <h1 id="greeting-title">Hello, I'm Akash Selvam.</h1>
           <p id="greeting-paragraph">
             Recent graduate from University of California Merced with a Bachelor
-            of Science in cognitive science. Currently looking to get into user
+            of Science in Cognitive Science. Currently looking to get into user
             experience research.
           </p>
         </div>
@@ -168,34 +194,50 @@
           <img src="buisness-outside.jpeg" />
         </div>
       </div>
-
+      <hr>
+      <!--Project Section-->
       <div class="" id="projects">
-        <div>
-          <h2>Lab Report</h2>
-          <p>
-            In this project I conducted a mock study in which I built 4 color
-            variants of a web page for a ficticious company I made up for this
-            study.
+        <p class="section-title">Projects</p>
+        <div class="lab">   
+          <div id="writing">
+          <h2 >Lab Report</h2>
+          <p id="mockProject-paragraph">
+            In this project I conducted a mock study in which I built 4 different
+            color variants of a web page for a ficticious company I made up for this
+            study. I made a host website that holds all the color variants I made for this study.
+            I attached a link to my google survey page on my host website in which my participants
+            rated on a scale from 1-5 on how calming each color variant web page was. I then made
+            a web page for my lab report on my study.
           </p>
+        </div id="project-links">
+          <a href="https://rainman9900.github.io/ResearchProject/Research.html
+          " target="_blank">Website</a>
+          <br>
+          <a href="https://github.com/rainman9900/rainman9900.github.io/tree/main/ResearchProject" target="_blank">Source</a>
+          <br>
+          <a href="https://rainman9900.github.io/labreport/lab.html" target="_blank">Report</a>
         </div>
-        <div>
-          <h2>Lab Report</h2>
-          <p>
-            In this project I conducted a mock study in which I built 4 color
-            variants of a web page for a ficticious company I made up for this
-            study.
+        <div class="big">
+          <h2>Big Project</h2>
+          <p id="research-paragraph">I conducted a case study on myself for my Positive Psychology course, in which
+            I recorded the experience of the positive psychology excersises I performed through out the semester. I wrote a research paper on
+            my case study, documenting my results from the exercises I did.
           </p>
+          <a href="https://github.com/rainman9900/rainman9900.github.io/blob/main/doc/Big_Project_Paper.pdf" target="_blank">Document</a>
+          
         </div>
       </div>
+      <hr>
     </main>
 
     <footer>
       <p id="footer-name">Akash Selvam - 2023</p>
       <p></p>
       <div class="icongroup">
-        <a class="fa-brands fa-github fa-xl" href="#"></a>
-        <a class="fa-brands fa-linkedin fa-xl" href="#"></a>
+        <a class="fa-brands fa-github fa-xl" href="https://github.com/rainman9900" target="-blank"></a>
+        <a class="fa-brands fa-linkedin fa-xl" href="https://www.linkedin.com/in/akash-selvam-63498b138/"target="-blank"></a>
       </div>
     </footer>
+    
   </body>
 </html>

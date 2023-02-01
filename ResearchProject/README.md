@@ -1,7 +1,7 @@
 ### To view my project and lab report in the browser please click below links
 
-rainman9900.github.io/Big-Project-Paper.pdf
-(This is the link to my Big Project Research Paper
+https://github.com/rainman9900/rainman9900.github.io/blob/main/Big-Project-Paper.pdf
+(This is the link to my Big Project Research Paper)
 
 https://rainman9900.github.io/ResearchProject/Research.html
 (This is the link to my experimental websites for my mock research project)
